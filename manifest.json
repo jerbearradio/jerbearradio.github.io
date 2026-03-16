@@ -1,0 +1,14 @@
+"name": "Jer Bear Radio",
+"short_name": "Jer Bear Radio",
+"start_url": "/",
+"display": "standalone",
+"background_color": "#000000",
+"theme_color": "#00ffcc",
+"icons": [
+  {
+    "src": "icon.png",
+    "sizes": "512x512",
+    "type": "imresizer-Jer Bear Image.png/png"
+  }
+]
+}
