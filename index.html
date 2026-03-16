@@ -1,133 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Jer Bear Radio - 90s Rock Radio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body {
-      background-color: black;
-      color: #00ffcc;
-      font-family: "Courier New", monospace;
-      text-align: center;
-      margin: 0;
-    }
+<title>Jer Bear Radio</title>
 
-    header {
-      padding: 30px;
-      border-bottom: 3px solid #ff00ff;
-    }
-
-    h1 {
-      font-size: 3em;
-      color: #ff00ff;
-      text-shadow: 0 0 10px #ff00ff;
-      margin-bottom: 5px;
-    }
-
-    .tagline {
-      color: #00ffcc;
-      font-size: 1.2em;
-    }
-
-    .marquee {
-      background: #111;
-      padding: 10px;
-      color: #ffff00;
-      font-weight: bold;
-      border-top: 2px solid #ff00ff;
-      border-bottom: 2px solid #ff00ff;
-    }
-
-    .section {
-      padding: 40px 20px;
-    }
-
-    .player {
-      margin: 30px auto;
-      max-width: 600px;
-    }
-
-    button {
-      background: #ff00ff;
-      color: black;
-      border: 2px solid #00ffcc;
-      padding: 12px 25px;
-      font-weight: bold;
-      cursor: pointer;
-      font-family: "Courier New", monospace;
-    }
-
-    button:hover {
-      background: #00ffcc;
-      color: black;
-    }
-
-    a {
-      color: #ffff00;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    footer {
-      margin-top: 40px;
-      padding: 20px;
-      font-size: 0.8em;
-      color: #666;
-      border-top: 2px solid #ff00ff;
-    }
-
-    .counter {
-      margin-top: 20px;
-      color: #ff00ff;
-    }
-  </style>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-  <h1>JER BEAR RADIO</h1>
-  <div class="tagline">Feel The Beat, Hear The Bear • Rock From The 90s and Up </div>
+<img src="images/jerbear-logo.png" alt="Jer Bear Radio Logo" class="logo">
+<h1>Jer Bear Radio</h1>
+<p class="tagline">Rock. Humor. Weirdness.</p>
 </header>
 
-<div class="marquee">
-  🎸 NOW STREAMING: GRUNGE • ALT ROCK • POST-GRUNGE • MODERN RIFFS 🎸
-</div>
+<section class="player">
+<h2>Listen Live</h2>
 
-<div class="section">
-  <h2>🎧 LISTEN LIVE</h2>
-  <div class="player">
-    <iframe width="450" height="316" frameborder="0" src="https://live365.com/embeds/v1/player/a59880?s=md&m=dark&c=mp3"></iframe>
-    <iframe width="450" height="511" frameborder="0" src="https://live365.com/embeds/v1/played/a59880?s=md&m=dark"></iframe>
-  
-            
-  </div>
-</div>
+<audio controls>
+<source src="YOUR_STREAM_LINK_HERE" type="audio/mpeg">
+</audio>
 
-<div class="section">
-  <h2>ABOUT THE STATION</h2>
-  <p>
-    Broadcasting from a bear cave, DJ Jer seeks out well-known and lesser-known rock.
-  </p>
-</div>
-
-<div class="section">
-  <h2>FOLLOW</h2>
-  <p>
-    <a href="https://instagram.com/YOURHANDLE">
-      @JerBearRadio
-    </a>
-  </p>
-</div>
-
-<div class="counter">
-  Visitor #0001997
-</div>
+</section>
 
 <footer>
-  © 2026 Jer Bear Radio<br>
-  Best viewed while listening at max volume.
+<p>© 2026 Jer Bear Radio</p>
 </footer>
 
 </body>
